@@ -448,6 +448,27 @@ nav{
 /* end of arrow */
 
 
+/* Social icons */
+.icons .fab{
+  color: black;
+}
+  .icons .fab:hover{
+    cursor: pointer;
+      color: grey;
+  }
+
+/* end of icons */
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query */
 
