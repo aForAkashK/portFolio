@@ -317,7 +317,7 @@ nav{
 	border: none;
 	border-radius: 5px;
 	color: white;
-	margin: 50px 30px;
+	/* margin: 50px 30px; */
 }
 /* end of skils section */
 
@@ -364,8 +364,9 @@ nav{
 	background-color: rgb(169, 255, 251);
 }
 .contact h4{
-	font-weight: 600;
+	  font-weight: 600;
     position: relative;
+    padding: 20px 0 20px ;
 }
 
 
@@ -376,7 +377,7 @@ nav{
     height: 3px;
     background-color: rgb(99, 214, 208);
     right: 48%;
-    top: 29px;
+    top: 47px;
 }
 .contact .container{
 	width: 40%;
@@ -503,18 +504,32 @@ nav{
 
 
 
+  /* skill buttons */
 
-  /* after effects */
 
-  .left-About h4::after{
-    content: "";
-    /* text-decoration: underline; */
-    position: absolute;
-    width: 10%;
-    height: 3px;
-    background-color: rgb(99, 214, 208);
-    right: 45%;
-    top: 27px;
+
+
+
+
+      /* after effects */
+
+      .left-About h4::after{
+        content: "";
+        /* text-decoration: underline; */
+        position: absolute;
+        width: 10%;
+        height: 3px;
+        background-color: rgb(99, 214, 208);
+        right: 45%;
+        top: 27px;
+      }
+
+      /* arrow */
+      .uparrow{
+        left: 80%;
+        width: 50px;
+        height: 50px;
+        line-height: 4;
+      }
+
 }
-
-  }
